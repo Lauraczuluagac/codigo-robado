@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+ 
+}
+.encabezado{
+  background-color: #120052;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+.menu{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  
+}
+.logo{
+  width: 10%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  margin-left: 5%;
+  opacity: 50%;
+  
+  
+ 
+}
+a{
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 4px 4px 4px #ff1493;
+  cursor: pointer;
+  transition: ease-in-out all 0.6s;
+  text-transform: uppercase;
+  color: #e9ff88;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+a:hover{
+  background-color:#ff1493;
+  color: #e9ff88;
+  transition: ease-in-out all 0.6s;
+}
+
+.contenido{
+  background-color: #1C4C96;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.contenido img{
+  width: 250px;
+  height: 200px;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 20%;
+  
+}
+
+
+.contacto{
+  
+  align-items: center;
+  background-color: #1C4C96;
+  display: flex;
+  flex-wrap: wrap;
+  background-size: 100%;
+  align-content: space-around;
+
+}
+.imagen{
+  width: 220px;
+  float: right;
+  margin-left: 20%;
+  border-radius: 20%;
+  opacity: 60%;
+}
+.formulario{
+ 
+ background-color:#120052;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #e9ff88;
+  width: 300px;
+  margin: 3%;
+  margin-left: 20%;
+  padding: 2%;
+}
+
+
+.boton{
+  align-items: center;
+  color: #e9ff88;
+  background-color: #ff1493;
+  box-shadow: 4px 4px 4px #ff1493;
+}
+.footer{
+  background-color: #120052;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.footer img{
+  
+  width: 60px;
+  height: 60px;
+  margin: 2%;
+  justify-content: space-between;
+  
+}
+.titulo{
+  color: #ff1493;
+  text-align: center;
+  font-size: 100px;
+
+}
+.servicio{
+  color: #120052;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
